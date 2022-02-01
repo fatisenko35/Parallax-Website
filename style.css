@@ -91,3 +91,41 @@ body,html{
     color: #ddd;
     
 }
+
+@media screen and (max-width:770px) {
+    .heading__container{
+        font-size: 2rem;
+        line-height: 2.5rem;
+}
+
+.heading__big{
+    padding: 1rem;
+    outline-offset: 0.6rem;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    outline: 0.4rem inset purple;
+    line-height: 2.5rem;
+
+}
+.heading__small{
+    padding: 0.4rem;
+    outline-offset: 0.1rem;
+    border-top-left-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+    line-height: 2.4rem;
+}
+.section{
+    font-size: 0.9rem;
+}
+}   
+
+
+@media (max-width: 568px) {
+    .image{
+      background-attachment: scroll;
+    }
+    .heading__container{
+        font-size: 1.4rem;
+        line-height: 2.2rem;
+  }
+}
