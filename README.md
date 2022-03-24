@@ -1,1 +1,2 @@
-Parallax-Website Coding Challenge 
+Parallax-Website 
+
